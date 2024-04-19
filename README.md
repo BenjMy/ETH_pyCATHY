@@ -30,9 +30,10 @@ pip install jupyterlab
 pip install jupyterlab_myst
 ```
 
-- Testing
-- Data Assimilation with point sensors
-- Data Assimilation with ERT2D
+- Testing (see pyCATHY doc)
+- Data Assimilation with point TDR sensors PARTI: [here](./notebooks/DA_SMC_sensors_part1.ipynb)
+- Data Assimilation with point TDR sensors PARTII: [here](./notebooks/DA_SMC_sensors_part2.ipynb)
+- Data Assimilation with ERT2D (in progress)
 
 
 # Authors
