@@ -21,12 +21,15 @@ sudo apt-get update
 sudo apt-get install gfortran
 sudo apt-get install blas-dev lapack-dev
 ```
+
+
+# Notebooks
+
 ```
 pip install jupyterlab
 pip install jupyterlab_myst
 ```
 
-# Notebooks
 - Testing
 - Data Assimilation with point sensors
 - Data Assimilation with ERT2D
