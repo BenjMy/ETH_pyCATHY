@@ -141,9 +141,10 @@ dem_mat, str_hd_dem = in_CT.read_dem(
 
 # yshift = 8
 # xshift = 8
+# ss
 
-idC = 8
-idL = 8
+idC = 10
+idL = 10
 
 minmax_dem_mat_Ci = [min(dem_mat[:,idC]), max(dem_mat[:,idC])]
 minmax_dem_mat_Li = [min(dem_mat[idL,:]), max(dem_mat[idL,:])]
@@ -163,11 +164,12 @@ meshCiPG_PGref = pv.read('meshCi.vtk')
 meshLi.exportVTK('meshLi.vtk')
 meshLiPG_PGref = pv.read('meshLi.vtk')
 
+len(dem_mat)
 
 (meshCiPG, meshLiPG) = utils.define_mesh_transformations(meshCiPG_PGref,
                                                       meshLiPG_PGref,
-                                                      idC=10, 
-                                                      idL=10,
+                                                      idC=idC, 
+                                                      idL=20-idL,
                                                     )
 
 
@@ -186,12 +188,12 @@ meshLiPG_PGref = pv.read('meshLi.vtk')
 # meshLiPG.points = transformed_points_meshLi
 
 # mesh
-# pl = pv.Plotter()
-# pl.add_mesh(meshCiPG)
-# pl.add_mesh(meshLiPG)
-# pl.add_mesh(meshCATHY,opacity=0.5)
-# pl.show_grid()
-# pl.show()
+pl = pv.Plotter()
+pl.add_mesh(meshCiPG)
+pl.add_mesh(meshLiPG)
+pl.add_mesh(meshCATHY,opacity=0.5)
+pl.show_grid()
+pl.show()
     
 
 ERT_meta_dict_meshLi={
@@ -246,6 +248,8 @@ df_sw, _ = simu_solution.read_outputs(filename='sw')
 
 for i in range(len(df_sw.index)):
 
+    # if i == 0:
+    #     continue
     # read in CATHY mesh data
     # ------------------------------------------------------------------------
     path_CATHY = os.path.join(simu_solution.workdir, 
@@ -267,6 +271,7 @@ for i in range(len(df_sw.index)):
             
     meshLi_PG_withSaturation, scalar_new = cathy_meshtools.CATHY_2_pg(meshCATHY,
                                                                       ERT_meta_dict_meshLi,
+                                                                      time=i,
                                                                       # show=True,
                                                                       )
     saturation = np.array(meshLi_PG_withSaturation[scalar_new])
