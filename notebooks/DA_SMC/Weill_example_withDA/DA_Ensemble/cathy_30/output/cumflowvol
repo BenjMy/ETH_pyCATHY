@@ -1,4 +1,0 @@
-                     #***** Cumulative flow volumes ***** 
-# Nstep    Deltat      Time  SeepageF  nansfDir  nansfNeu   Nudging  net (VTOT)
-      1  1.00E-02  1.00E-02  0.00E+00  0.00E+00  0.00E+00  0.00E+00 -5.0000E-08
-      2  1.00E-02  2.00E-02  0.00E+00  0.00E+00  0.00E+00  0.00E+00 -5.0000E-08

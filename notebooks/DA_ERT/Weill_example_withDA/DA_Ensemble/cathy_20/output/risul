@@ -50,7 +50,7 @@
 
      CONSTANT INITIAL PRESSURE HEAD          =     1.99300E-02
 
-     PMIN  (AIR DRY PRESSURE HEAD VALUE)     =    -5.00000E+00
+     PMIN  (AIR DRY PRESSURE HEAD VALUE)     =    -1.00000E+25
      IPEAT (flag for peat deformation)       =      0
      IVGHU (-1 moisture curve lookup table, 
             0 van Genuchten, 
@@ -415,20 +415,20 @@
 
 
   TOT CPU FOR THE SIMULATION           =            2.07 SECONDS  100.00 %
-  TOT CPU FOR NONLINEAR SCHEME         =            1.65 SECONDS   79.53 %
-  TOT CPU FOR OVERHEAD (SEE CODE DESC.)=            0.42 SECONDS   20.47 %
+  TOT CPU FOR NONLINEAR SCHEME         =            1.65 SECONDS   79.70 %
+  TOT CPU FOR OVERHEAD (SEE CODE DESC.)=            0.42 SECONDS   20.30 %
 
-  TOT CPU FOR UNSAT CHARACTERISTICS    =            0.18 SECONDS    8.65 %
-  TOT CPU FOR INIT. OF SYSTEM MATRICES =            0.02 SECONDS    0.83 %
-  TOT CPU FOR LOCAL SYSTEM ASSEMBLY    =            0.27 SECONDS   13.15 %
-  TOT CPU FOR RHS CALCULATION W/O BC'S =            0.04 SECONDS    2.12 %
+  TOT CPU FOR UNSAT CHARACTERISTICS    =            0.18 SECONDS    8.68 %
+  TOT CPU FOR INIT. OF SYSTEM MATRICES =            0.02 SECONDS    0.87 %
+  TOT CPU FOR LOCAL SYSTEM ASSEMBLY    =            0.27 SECONDS   13.08 %
+  TOT CPU FOR RHS CALCULATION W/O BC'S =            0.04 SECONDS    2.06 %
   TOT CPU FOR GLOBAL LHS SYSTEM MATRIX =            0.01 SECONDS    0.65 %
-  TOT CPU FOR BC CONTRIBUTIONS TO RHS  =            0.06 SECONDS    2.74 %
-  TOT CPU FOR LINEAR SOLVER & RESIDUAL =            1.01 SECONDS   48.85 %
+  TOT CPU FOR BC CONTRIBUTIONS TO RHS  =            0.06 SECONDS    2.70 %
+  TOT CPU FOR LINEAR SOLVER & RESIDUAL =            1.01 SECONDS   49.07 %
   TOT CPU FOR DIR. RESETTING AND DIFMAX=            0.00 SECONDS    0.05 %
-  TOT CPU FOR B-FLX, M-BAL, SW, & EX-PT=            0.05 SECONDS    2.35 %
+  TOT CPU FOR B-FLX, M-BAL, SW, & EX-PT=            0.05 SECONDS    2.39 %
                                          -----------         -------
-                                                1.64 SECONDS   79.39 %
+                                                1.64 SECONDS   79.56 %
 
   TOTAL NUMBER OF TIME STEPS           =        1
   SMALLEST TIME STEP SIZE              =   1.000E-02  AT TIME   1.000E-02

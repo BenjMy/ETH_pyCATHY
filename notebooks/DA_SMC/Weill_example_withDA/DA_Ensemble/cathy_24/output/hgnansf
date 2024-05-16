@@ -1,4 +1,0 @@
-#NSTEP     DELTAT       TIME   NET NATM,NSF DIR FLUX   NET NATM,NSF NEU FLUX
-     1  6.250E-02  6.250E-02             0.00000E+00             0.00000E+00
-     2  1.000E-02  7.250E-02             0.00000E+00             0.00000E+00
-     3  1.000E-02  8.250E-02             0.00000E+00             0.00000E+00

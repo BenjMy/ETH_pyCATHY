@@ -50,7 +50,7 @@
 
      CONSTANT INITIAL PRESSURE HEAD          =     5.76500E-01
 
-     PMIN  (AIR DRY PRESSURE HEAD VALUE)     =    -5.00000E+00
+     PMIN  (AIR DRY PRESSURE HEAD VALUE)     =    -1.00000E+25
      IPEAT (flag for peat deformation)       =      0
      IVGHU (-1 moisture curve lookup table, 
             0 van Genuchten, 
@@ -443,21 +443,21 @@
   TOTAL NUMBER OF LINEAR SOLVER FAILURES         :      0
 
 
-  TOT CPU FOR THE SIMULATION           =            2.18 SECONDS  100.00 %
-  TOT CPU FOR NONLINEAR SCHEME         =            1.77 SECONDS   81.55 %
-  TOT CPU FOR OVERHEAD (SEE CODE DESC.)=            0.40 SECONDS   18.45 %
+  TOT CPU FOR THE SIMULATION           =            2.15 SECONDS  100.00 %
+  TOT CPU FOR NONLINEAR SCHEME         =            1.75 SECONDS   81.25 %
+  TOT CPU FOR OVERHEAD (SEE CODE DESC.)=            0.40 SECONDS   18.75 %
 
-  TOT CPU FOR UNSAT CHARACTERISTICS    =            0.18 SECONDS    8.32 %
-  TOT CPU FOR INIT. OF SYSTEM MATRICES =            0.02 SECONDS    0.88 %
-  TOT CPU FOR LOCAL SYSTEM ASSEMBLY    =            0.29 SECONDS   13.15 %
-  TOT CPU FOR RHS CALCULATION W/O BC'S =            0.05 SECONDS    2.13 %
-  TOT CPU FOR GLOBAL LHS SYSTEM MATRIX =            0.01 SECONDS    0.67 %
-  TOT CPU FOR BC CONTRIBUTIONS TO RHS  =            0.06 SECONDS    2.76 %
-  TOT CPU FOR LINEAR SOLVER & RESIDUAL =            1.12 SECONDS   51.26 %
-  TOT CPU FOR DIR. RESETTING AND DIFMAX=            0.00 SECONDS    0.05 %
-  TOT CPU FOR B-FLX, M-BAL, SW, & EX-PT=            0.05 SECONDS    2.19 %
+  TOT CPU FOR UNSAT CHARACTERISTICS    =            0.18 SECONDS    8.44 %
+  TOT CPU FOR INIT. OF SYSTEM MATRICES =            0.02 SECONDS    0.99 %
+  TOT CPU FOR LOCAL SYSTEM ASSEMBLY    =            0.27 SECONDS   12.73 %
+  TOT CPU FOR RHS CALCULATION W/O BC'S =            0.05 SECONDS    2.20 %
+  TOT CPU FOR GLOBAL LHS SYSTEM MATRIX =            0.02 SECONDS    0.78 %
+  TOT CPU FOR BC CONTRIBUTIONS TO RHS  =            0.06 SECONDS    2.57 %
+  TOT CPU FOR LINEAR SOLVER & RESIDUAL =            1.10 SECONDS   50.97 %
+  TOT CPU FOR DIR. RESETTING AND DIFMAX=            0.00 SECONDS    0.06 %
+  TOT CPU FOR B-FLX, M-BAL, SW, & EX-PT=            0.05 SECONDS    2.34 %
                                          -----------         -------
-                                                1.77 SECONDS   81.41 %
+                                                1.75 SECONDS   81.08 %
 
   TOTAL NUMBER OF TIME STEPS           =        2
   SMALLEST TIME STEP SIZE              =   1.000E-02  AT TIME   2.563E-02
@@ -468,7 +468,7 @@
   AVG NL ITERATIONS PER TIME STEP      =    41.50
   AVG LINEAR ITERATIONS PER TIME STEP  =   700.00
   AVG LIN ITERATIONS PER NL ITERATION  =    16.87
-  AVG TOT CPU PER TIME STEP            =     1.09 SECONDS
+  AVG TOT CPU PER TIME STEP            =     1.08 SECONDS
   AVG TOT CPU PER NL ITERATION         =     0.03 SECONDS
-  AVG TOT NL CPU PER TIME STEP         =     0.89 SECONDS
+  AVG TOT NL CPU PER TIME STEP         =     0.87 SECONDS
   AVG TOT NL CPU PER NL ITERATION      =     0.02 SECONDS

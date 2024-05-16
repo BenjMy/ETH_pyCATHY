@@ -48,7 +48,7 @@
      DTREDS (RED. FACTOR FOR DELTAT, SUB.)   =     0.00000E+00
      DTREDM (RED. FACTOR FOR DELTAT, MULT.)  =     5.00000E-01
 
-     PMIN  (AIR DRY PRESSURE HEAD VALUE)     =    -5.00000E+00
+     PMIN  (AIR DRY PRESSURE HEAD VALUE)     =    -1.00000E+25
      IPEAT (flag for peat deformation)       =      0
      IVGHU (-1 moisture curve lookup table, 
             0 van Genuchten, 

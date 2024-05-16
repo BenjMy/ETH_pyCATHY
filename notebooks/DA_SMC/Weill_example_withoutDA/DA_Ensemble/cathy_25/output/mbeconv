@@ -1,5 +1,0 @@
-#INITIAL VOLUME OF WATER IN THE SUBSURFACE =   1.65000E+02
-#NSTEP       DELTAT         TIME  NLIN   AVG.LIN       STORE1       STORE2       DSTORE   CUM.DSTORE       VIN  CUM.VIN       VOUT    CUM.VOUT   VIN+VOUT   CUM. VIN  M.BAL.ERR   REL. MBE   CUM. MBE      CUM.
-#                                 ITER.    ITER.                             (>0 x inc)                                                                      + VOUT  (Vi+Vo-Ds)        (%)             ABS(MBE)
-     1 1.562500E-02 1.562500E-02     3 1.067E+01 1.650000E+02 1.650000E+02  4.68750E-07  4.68750E-07 2.344E-07 2.344E-07  0.000E+00  0.000E+00  2.344E-07  2.344E-07 -2.344E-07 -1.000E+02 -2.344E-07 2.344E-07
-     2 1.000000E-02 2.562500E-02    10 6.600E+00 1.649993E+02 1.649955E+02 -4.51528E-03 -4.51481E-03 2.026E-04 2.029E-04  0.000E+00  0.000E+00  2.026E-04  2.029E-04  4.718E-03  2.328E+03  4.718E-03 4.718E-03
