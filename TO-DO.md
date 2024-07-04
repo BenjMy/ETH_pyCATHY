@@ -15,6 +15,7 @@
   - [ ] With/Without localization
     - [ ] Localisation per pixel
     - [ ] Localisationon per zones
+- [ ] Test calibration/validation period (see botto)
 
 ## Documentation
 - [ ] Notebooks ERT
