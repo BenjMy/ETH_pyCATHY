@@ -1,0 +1,5 @@
+,study,sc,nens,DAtype,DAloc,damping,dataErr,parallel,refModel,datetime
+0,ZROOTdim2,0,64,enkf_analysis_inflation_multiparm,0,1.0,1e+99,1,ZROOT_spatially_from_weill,2024-06-12 15:04:29.482328
+1,ZROOTdim2,0,64,enkf_analysis_inflation_multiparm,0,1.0,1e-11,1,ZROOT_spatially_from_weill,2024-06-12 15:04:34.197984
+2,ZROOTdim2,0,64,enkf_Evensen2009,0,1.0,1e-11,1,ZROOT_spatially_from_weill,2024-06-12 15:04:38.680671
+3,ZROOTdim2,0,64,enkf_analysis_inflation_multiparm,1,1.0,1e-11,1,ZROOT_spatially_from_weill,2024-06-12 15:07:29.586980

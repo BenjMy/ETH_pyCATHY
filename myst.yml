@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 9ccbb88f-e40f-414b-8884-6d4ec2e81795
+  # title:
+  # description:
+  keywords: []
+  authors: []
+  github: https://github.com/BenjMy/ETH_pyCATHY
+  # bibliography: []
+site:
+  template: book-theme
+  # title:
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://mystmd.org/guide
+  domains: []
