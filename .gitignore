@@ -1,2 +1,6 @@
 *.vtk
 *.pkl 
+
+/_build/
+
+data
