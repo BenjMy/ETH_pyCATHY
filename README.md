@@ -1,5 +1,5 @@
 # Introduction
-Tentative pyCATHY models for DA
+Tentative pyCATHY models with DA
 
 # Installation
 See [documentation](https://benjmy.github.io/pycathy_wrapper/content/installing.html)
